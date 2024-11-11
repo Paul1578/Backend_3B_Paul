@@ -2,5 +2,20 @@ POST http://127.0.0.1:3000/auth/register
 Content-Type: application/json
 
 {
-    "name":"prueba"
+    "name":"pruba2",
+    "email":"rp2@hm.com",
+    "password":"1234567"
 }
+###
+POST http://127.0.0.1:3000/auth/login
+Content-Type: application/json
+
+{
+    "name":"pruba2",
+    "email":"rp2@hm.com",
+    "password":"1234567"
+
+}
+### 
+
+GET http://127.0.0.1:3000/users
