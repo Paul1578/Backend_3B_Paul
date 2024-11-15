@@ -6,7 +6,7 @@ const env= process.env.NODE_ENV || 'development'
 config({
     override: true,
     path:`.env.${env}`,
-    debug:true //para validar que se está modificando
+    debug:true 
 })
 
 export default new DataSource({
